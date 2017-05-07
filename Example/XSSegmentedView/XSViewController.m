@@ -7,8 +7,13 @@
 //
 
 #import "XSViewController.h"
+#import <XSSegmentedView/XSSegmentedView.h>
 
-@interface XSViewController ()
+@interface XSViewController () <XSSegmentedViewDelegate>
+
+@property (nonatomic, strong) NSArray *titles;
+
+@property (nonatomic, weak) IBOutlet XSSegmentedView *segmentedView;
 
 @end
 
@@ -18,6 +23,27 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    _titles = @[@"First", @"Second", @"Third"];
+    
+    [_segmentedView setTitles:_titles];
+    [_segmentedView setDelegate:self];
+    
+}
+
+- (void)xsSegmentedView:(XSSegmentedView *)XSSegmentedView selectTitleInteger:(NSInteger)integer {
+    
+    NSString *message = [NSString stringWithFormat:@"Select \"%@\" title", _titles[integer]];
+    
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"SelectTitle" message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
+    
+}
+
+- (IBAction)buttonClick:(id)sender {
+    
+    [_segmentedView setSelectNumber:2 animate:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning

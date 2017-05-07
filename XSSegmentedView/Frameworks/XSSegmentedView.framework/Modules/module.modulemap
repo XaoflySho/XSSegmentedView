@@ -1,0 +1,6 @@
+framework module XSSegmentedView {
+  umbrella header "XSSegmentedView.h"
+
+  export *
+  module * { export * }
+}

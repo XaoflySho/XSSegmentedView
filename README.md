@@ -1,6 +1,6 @@
 # XSSegmentedView
 
-[![CI Status](http://img.shields.io/travis/邵晓飞/XSSegmentedView.svg?style=flat)](https://travis-ci.org/邵晓飞/XSSegmentedView)
+[![CI Status](http://img.shields.io/travis/XaoflySho/XSSegmentedView.svg?style=flat)](https://travis-ci.org/XaoflySho/XSSegmentedView)
 [![Version](https://img.shields.io/cocoapods/v/XSSegmentedView.svg?style=flat)](http://cocoapods.org/pods/XSSegmentedView)
 [![License](https://img.shields.io/cocoapods/l/XSSegmentedView.svg?style=flat)](http://cocoapods.org/pods/XSSegmentedView)
 [![Platform](https://img.shields.io/cocoapods/p/XSSegmentedView.svg?style=flat)](http://cocoapods.org/pods/XSSegmentedView)
@@ -22,7 +22,7 @@ pod "XSSegmentedView"
 
 ## Author
 
-邵晓飞, shaoxiaof@hotmail.com
+XaoflySho, shaoxiaof@hotmail.com
 
 ## License
 

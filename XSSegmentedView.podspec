@@ -31,14 +31,14 @@ It is very easy to use!
 
   s.ios.deployment_target = '8.0'
 
-  # s.source_files = 'XSSegmentedView/Classes/**/*'
+  s.source_files = 'XSSegmentedView/Classes/**/*'
   
   # s.resource_bundles = {
   #   'XSSegmentedView' => ['XSSegmentedView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.vendored_frameworks = 'XSSegmentedView/Frameworks/*'
+  # s.vendored_frameworks = 'XSSegmentedView/Frameworks/*'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

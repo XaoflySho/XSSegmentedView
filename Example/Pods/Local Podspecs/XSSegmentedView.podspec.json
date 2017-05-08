@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "vendored_frameworks": "XSSegmentedView/Frameworks/*"
+  "source_files": "XSSegmentedView/Classes/**/*"
 }
